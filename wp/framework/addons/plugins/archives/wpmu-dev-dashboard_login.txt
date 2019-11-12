@@ -1,0 +1,7 @@
+###
+# Smush Pro
+###
+@Username: sales@designstoclicks.com
+@Password: mura1014
+---
+URL: https://premium.wpmudev.org/project/wp-smush-pro

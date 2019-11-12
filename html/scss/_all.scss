@@ -1,0 +1,30 @@
+// load repositories
+@import "repository/reset";
+@import "repository/variables";
+@import "repository/mixins";
+
+// </> grids
+@import "repository/grid-default"; //required
+@import "repository/grid-cols";
+//@import "repository/grid-x";
+@import "repository/grid-flex";
+// </> end
+
+@import "repository/typography";
+@import "repository/forms";
+@import "repository/tables";
+@import "repository/buttons";
+
+// </> utilities
+@import "repository/utilities";
+// </> end
+
+// load pages
+@import "pages/home";
+@import "pages/inners";
+@import "pages/contact";
+
+// load partials
+@import "partials/header";
+@import "partials/footer";
+@import "partials/others";

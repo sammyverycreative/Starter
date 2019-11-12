@@ -1,0 +1,412 @@
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    //Instead of the line below you could use @include user-select($select)
+    user-select: none;
+}
+form {
+    margin: 0;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+legend {
+    white-space: normal;
+    border: 0;
+    padding: 0;
+}
+input {
+    vertical-align: baseline;
+    line-height: normal;
+    margin: 0 0 25px;
+    @include tablet {
+        margin: 0 0 15px;
+    }
+    @include mobile {
+        margin: 0 0 10px;
+    }
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    //Instead of the line below you could use @include box-sizing($bs)
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+input[type="checkbox"] {
+    line-height: normal;
+    padding: 0;
+    margin: 4px 0 0;
+    &.styled {
+        &:checked {
+            position: absolute;
+            left: -9999px;
+            + label {
+                @extend %extend_2;
+                &:before {
+                    @extend %extend_3;
+                    @extend %extend_4;
+                }
+                &:after {
+                    @extend %extend_6;
+                    @extend %extend_7;
+                    opacity: 1;
+                    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+                    transform: scale(1);
+                }
+            }
+        }
+        &:not(:checked) {
+            position: absolute;
+            left: -9999px;
+            + label {
+                @extend %extend_2;
+                &:before {
+                    @extend %extend_3;
+                    @extend %extend_4;
+                }
+                &:after {
+                    @extend %extend_6;
+                    @extend %extend_7;
+                    opacity: 0;
+                    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+                    transform: scale(0);
+                }
+            }
+        }
+    }
+}
+input[type="radio"] {
+    line-height: normal;
+    padding: 0;
+    margin: 4px 0 0;
+    &.styled {
+        &:checked {
+            position: absolute;
+            left: -9999px;
+            + label {
+                @extend %extend_2;
+                &:before {
+                    @extend %extend_3;
+                    @extend %extend_5;
+                }
+                &:after {
+                    @extend %extend_6;
+                    @extend %extend_8;
+                    opacity: 1;
+                    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+                    transform: scale(1);
+                }
+            }
+        }
+        &:not(:checked) {
+            position: absolute;
+            left: -9999px;
+            + label {
+                @extend %extend_2;
+                &:before {
+                    @extend %extend_3;
+                    @extend %extend_5;
+                }
+                &:after {
+                    @extend %extend_6;
+                    @extend %extend_8;
+                    opacity: 0;
+                    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+                    transform: scale(0);
+                }
+            }
+        }
+    }
+}
+select {
+    vertical-align: baseline;
+    text-transform: none;
+    padding-right: 0;
+    margin: 0;
+    &.styled {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+textarea {
+    vertical-align: baseline;
+    margin: 0;
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+    height: auto;
+    min-height: 110px;
+    line-height: normal;
+    padding: 15px 17px;
+    @extend %extend_9;
+}
+input[type="reset"] {
+    @extend %extend_1;
+}
+input[type="button"] {
+    @extend %extend_1;
+}
+input[type="submit"] {
+    @extend %extend_1;
+}
+button {
+    vertical-align: baseline;
+    line-height: normal;
+    text-transform: none;
+    margin: 0;
+    @extend %extend_1;
+}
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+input[disabled] {
+    cursor: default;
+}
+button[disabled] {
+    cursor: default;
+}
+input[type="text"] {
+    @extend %extend_9;
+}
+input[type="email"] {
+    @extend %extend_9;
+}
+input[type="tel"] {
+    @extend %extend_9;
+}
+label {
+    display: block;
+    color: $main-text-color;
+    font-family: $main-font, #{$sans};
+    font-size: $main-font-size;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 7px;
+}
+::-webkit-input-placeholder {
+    color: $main-text-color;
+    font-size: $main-font-size;
+    font-family: $main-font;
+    font-weight: $main-font-weight;
+    letter-spacing: normal;
+}
+:-moz-placeholder {
+    color: $main-text-color;
+    font-size: $main-font-size;
+    font-family: $main-font;
+    font-weight: $main-font-weight;
+    letter-spacing: normal;
+}
+::-moz-placeholder {
+    color: $main-text-color;
+    font-size: $main-font-size;
+    font-family: $main-font;
+    font-weight: $main-font-weight;
+    letter-spacing: normal;
+}
+:-ms-input-placeholder {
+    color: $main-text-color;
+    font-size: $main-font-size;
+    font-family: $main-font;
+    font-weight: $main-font-weight;
+    letter-spacing: normal;
+}
+.checkbox {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url(images/checkbox.png) no-repeat;
+    clear: left;
+    float: left;
+    padding: 0 5px 0 0;
+}
+.radio-input {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-right: 40px;
+    span {
+        margin-right: 10px;
+    }
+}
+.radio {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url(images/checkbox.png) no-repeat;
+    clear: left;
+    float: left;
+    padding: 0 5px 0 0;
+    background: url(images/radio.png) no-repeat;
+}
+.select-block {
+    position: relative;
+    .selectric-wrapper {
+        background: #fff;
+        .selectric {
+            .select-button {
+                position: absolute;
+                top: 16px;
+                right: 20px;
+                width: 13px;
+                height: 8px;
+                background-image: url(images/select-arrow2.png);
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                z-index: 10;
+            }
+            span.label {
+                height: 39px;
+                color: #878787;
+                font-size: 1.1rem;
+                font-family: $main-font;
+                line-height: 41px;
+                text-transform: uppercase;
+                padding: 0 30px;
+            }
+        }
+        &.white-select {
+            border: 0;
+        }
+        .selectric-items ul li {
+            padding: 7px 20px;
+            color: #878787;
+            font-size: 1.3rem;
+            margin: 0;
+            border: 0;
+            border-top: 1px solid #c2c0c6;
+        }
+    }
+}
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+    + label {
+        position: relative;
+        cursor: pointer;
+        display: initial;
+        width: auto;
+        float: none;
+        text-align: initial;
+        font-size: inherit;
+        line-height: normal;
+        text-transform: none;
+        padding: 0;
+        &:before {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            content: '';
+            vertical-align: text-top;
+            border: 2px solid #d1d3d4;
+            background: #e6e7e8;
+            margin-right: 10px;
+        }
+    }
+    &:checked + label {
+        &:before {
+            color: #f73093;
+        }
+        &:after {
+            position: absolute;
+            top: 9px;
+            left: 5px;
+            width: 2px;
+            height: 2px;
+            content: '';
+            background: #f73093;
+            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            box-shadow: 2px 0 0 #f73093, 4px 0 0 #f73093, 4px -2px 0 #f73093, 4px -4px 0 #f73093, 4px -6px 0 #f73093, 4px -8px 0 #f73093;
+            //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+            transform: rotate(45deg);
+        }
+    }
+    &:disabled + label {
+        cursor: auto;
+        color: #b8b8b8;
+        &:before {
+            background: #ddd;
+            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            box-shadow: none;
+        }
+    }
+}
+
+// CF7 Style
+.wpcf7 .ajax-loader,
+.wpcf7-not-valid-tip {
+    display: none !important;
+}
+.wpcf7-not-valid {
+    border: 1px solid red !important;
+}
+
+.wpcf7 input:hover, 
+.wpcf7 input:focus, 
+.wpcf7 select:hover, 
+.wpcf7 select:focus,
+.wpcf7 textarea:hover, 
+.wpcf7 textarea:focus {
+    //border-color: $main-color !important;
+    outline: 0 !important;
+    transition: all 0.3s ease;
+}
+.wpcf7 input[type="submit"]:hover, 
+.wpcf7 input[type="submit"]:focus {
+    outline: 0 !important;
+    transition: all 0.3s ease;
+}
+
+/* Other Fields */
+.wpcf7-validates-as-required {
+/*all required fields*/
+
+}
+
+select option {
+/*select option*/
+
+}
+
+input[type="file"] {
+/*file field*/
+
+}
+/* #END */
+
+div.wpcf7-response-output {
+    margin: 0;
+    padding: 0;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing,
+div.wpcf7-mail-sent-ok {
+    text-align: center;
+    border: 0 !important;
+}
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+    color: $red;
+}
+div.wpcf7-mail-sent-ok {
+    color: $green;
+}
