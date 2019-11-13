@@ -6,8 +6,7 @@
 // Public Folder
 function public_dir()
 {
-    //return get_template_directory_uri() . '/public';
-    return get_template_directory_uri();
+    return get_template_directory_uri() . '/assets';
 }
 
 // Mime Types
