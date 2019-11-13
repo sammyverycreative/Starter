@@ -9,19 +9,19 @@
         <meta name="author" content="VeryCreative">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="images/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="images/iphone.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="images/iphone-retina.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="images/ipad.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="images/ipad-retina.png">
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="assets/images/iphone.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/ipad.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/images/ipad-retina.png">
         
-        <link rel="stylesheet" type="text/css" href="css/iealert/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/iealert/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css" />
         <link rel="stylesheet" type="text/css" href="style.css?v=<?php echo time(); ?>" />
 
         <!-- fonts -->
-        <link rel="stylesheet" href="fonts.css" type="text/css" />
+        <link rel="stylesheet" href="assets/fonts/fonts.css" type="text/css" />
         <!-- link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" -->
         <!-- /fonts -->
         
