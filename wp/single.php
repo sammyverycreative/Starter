@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="class_here" style="background-image: url(<?php echo $image[0]; ?>);">
 <?php } ?>
 <?php if (!has_post_thumbnail()) { ?>		
-	<div class="class_here" style="background-image: url(<?php echo esc_url(get_template_directory_uri()); ?>/images/default-thumbnail.jpg);">
+	<div class="class_here" style="background-image: url(<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/default-thumbnail.jpg);">
 <?php //} ?>
 				
 <?php echo get_the_title(); ?>

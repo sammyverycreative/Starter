@@ -40,7 +40,7 @@ $jabber = $curauth->jabber;
                 <a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail( $page->ID, array(1920, 400) ); ?></a>
             <?php } ?>
             <?php if (!has_post_thumbnail()) { ?>
-                <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/default-thumbnail.jpg" alt="Blog"></a>
+                <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/default-thumbnail.jpg" alt="Blog"></a>
             <?php } ?>
                 <a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
 

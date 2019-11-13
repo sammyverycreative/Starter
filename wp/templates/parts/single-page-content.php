@@ -1,6 +1,6 @@
 <?php
 defined('ABSPATH') or die('Direct access is forbidden!');
-include('template-parts/page-utils.php');
+include('templates/parts/page-utils.php');
 global $vc;
 get_header();
 ?>

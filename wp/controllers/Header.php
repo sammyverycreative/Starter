@@ -26,7 +26,7 @@ class Header
 
     public function generate()
     {
-        include TEMPLATEPATH . '/template-parts/components/header.php';
+        include TEMPLATEPATH . '/templates/parts/components/header.php';
     }
 
     /**

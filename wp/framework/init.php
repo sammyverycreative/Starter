@@ -9,13 +9,13 @@ require_once TEMPLATEPATH . '/framework/addons/inc/shortcodes.php';
 require_once TEMPLATEPATH . '/framework/helpers/components/util.php';
 
 # Addons
-require_once TEMPLATEPATH . '/framework/controllers/Enqueue.php';
-require_once TEMPLATEPATH . '/framework/controllers/Gallery.php';
-require_once TEMPLATEPATH . '/framework/controllers/Header.php';
-require_once TEMPLATEPATH . '/framework/controllers/Menu.php';
-require_once TEMPLATEPATH . '/framework/controllers/Repeater.php';
-//require_once TEMPLATEPATH . '/framework/controllers/Scorpio.php';
-require_once TEMPLATEPATH . '/framework/controllers/Theme.php';
+require_once TEMPLATEPATH . '/controllers/Enqueue.php';
+require_once TEMPLATEPATH . '/controllers/Gallery.php';
+require_once TEMPLATEPATH . '/controllers/Header.php';
+require_once TEMPLATEPATH . '/controllers/Menu.php';
+require_once TEMPLATEPATH . '/controllers/Repeater.php';
+//require_once TEMPLATEPATH . '/controllers/Scorpio.php';
+require_once TEMPLATEPATH . '/controllers/Theme.php';
 
 # Register navigation menus
 //require_once TEMPLATEPATH . '/framework/addons/inc/navigation.php';

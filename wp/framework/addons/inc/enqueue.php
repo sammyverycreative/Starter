@@ -8,16 +8,16 @@ function theme_styles() {
 	wp_enqueue_script( 'jquery' );
 
 	# Fonts
-	wp_enqueue_style('fontawesome_style', get_template_directory_uri().'/css/fontawesome-all.min.css');
+	wp_enqueue_style('fontawesome_style', get_template_directory_uri().'/assets/css/fontawesome-all.min.css');
 	//wp_enqueue_style('font-open-sans_style', '//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Montserrat|Roboto:400,900');
-	wp_enqueue_style('fonts-style', get_template_directory_uri().'/fonts.css');
+	wp_enqueue_style('fonts-style', get_template_directory_uri().'/assets/fonts/fonts.css');
 
 	# Stylesheets
 	//wp_enqueue_style('stylesheet', get_template_directory_uri().'/style.css');
-	//wp_enqueue_style('stylesheet', get_template_directory_uri().'/css/custom.css', false, date('dmYHisu'));
+	//wp_enqueue_style('stylesheet', get_template_directory_uri().'/assets/css/custom.css', false, date('dmYHisu'));
 	
 	# Other(s)
-	wp_enqueue_style('iealert_style', get_template_directory_uri().'/css/iealert/style.css');
+	wp_enqueue_style('iealert_style', get_template_directory_uri().'/assets/css/iealert/style.css');
 
 	/**
 
@@ -27,14 +27,14 @@ function theme_styles() {
 	wp_enqueue_script('jquery_googleapis_script', '//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js');
 
 	# Other(s)
-	wp_register_script('modernizer_script', get_template_directory_uri().'/js/modernizr_2.8.3.js', '', '', false );
+	wp_register_script('modernizer_script', get_template_directory_uri().'/assets/js/modernizr_2.8.3.js', '', '', false );
 	wp_enqueue_script('modernizer_script', array('jquery'));
 
-	wp_register_script('iealert_script', get_template_directory_uri().'/js/iealert.min.js', '', '', true );
+	wp_register_script('iealert_script', get_template_directory_uri().'/assets/js/iealert.min.js', '', '', true );
 	wp_enqueue_script('iealert_script', array('jquery'));
 
 	# Main JavaScript File
-	//wp_register_script('scripts', get_template_directory_uri().'/js/custom.js', '', date('YmdHGis'), false);
+	//wp_register_script('scripts', get_template_directory_uri().'/assets/js/custom.js', '', date('YmdHGis'), false);
 	//wp_enqueue_script('scripts', array('jquery'), true);
 	wp_register_script('scripts', get_template_directory_uri().'/script.js', '', false, true );
 	wp_enqueue_script('scripts', array('jquery'));

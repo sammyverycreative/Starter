@@ -7,11 +7,6 @@ session_start();
 
 define('THEME_TEXT_DOMAIN', 'theme_slug');
 
-// Debug
-/*ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);*/
-
 /**
  * FRAMEWORK
  */
@@ -23,6 +18,7 @@ require_once 'framework/framework.php';
  */
 $theme = new Theme();
 
+//$theme->enableDebug();
 $theme->setAjax(true);
 $theme->setHideAdminBar(false);
 $theme->customThumbnailSize(1400,475,true);

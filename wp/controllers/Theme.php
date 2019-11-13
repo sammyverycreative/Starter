@@ -16,6 +16,7 @@
  * setWoocommerce(true/false);
  * imageSize($name,$width,$height,$crop = false);
  * addControlPage($pageTitle,$menu_title);
+ * enableDebug();
  */
 
 class Theme
@@ -250,5 +251,11 @@ class Theme
                 }
             }
         }
+    }
+
+    public function enableDebug() {
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
     }
 }
