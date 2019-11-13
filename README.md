@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 12/11/2019
-###### ** Current version: 6.0
+##### Last Update: 13/11/2019
+###### ** Current version: 6.2
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -58,5 +58,7 @@
 [HTML+WP] Add: Selectric themes<br />
 [WP] Add: New Framework<br />
 [WP] Add: New Functions<br />
+[WP] Edit: Constrollers (Enqueue, Theme)<br />
+[HTML+WP] Edit: Structure<br />
 
 ###### Copyright (c) VeryCreative
