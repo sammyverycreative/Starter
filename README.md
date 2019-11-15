@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 13/11/2019
-###### ** Current version: 6.2
+##### Last Update: 14/11/2019
+###### ** Current version: 6.3
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -24,6 +24,7 @@
 [HTML+WP] Slick<br />
 [HTML+WP] Typography (CSS+SCSS)<br />
 [HTML+WP] Typography (SCSS)<br />
+[WP] Framework error<br />
 
 ### @Changes:
 [HTML+WP] Edit: Folders structure<br />
