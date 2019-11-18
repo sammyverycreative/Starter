@@ -149,6 +149,12 @@ function theme_slug_register_required_plugins() {
 			'required'=>true,
 			'force_activation'=>false
 		),
+		/*array(
+			'name'=>'WooCommerce',
+			'slug'=>'woocommerce',
+			'required'=>true,
+			'force_activation'=>true
+		),*/
 		array(
 			'name'=>'Regenerate Thumbnails',
 			'slug'=>'regenerate-thumbnails',

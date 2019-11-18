@@ -107,6 +107,10 @@ function hide_plugins($plugins)
 		if(is_plugin_active('add-full-svg-support/add-full-svg-support.php')) {
 				unset( $plugins['add-full-svg-support/add-full-svg-support.php'] );
 		}
+		// WooCommerce
+		if(is_plugin_active('woocommerce/woocommerce.php')) {
+				unset( $plugins['woocommerce/woocommerce.php'] );
+		}
 		// Regenerate Thumbnails
 		if(is_plugin_active('regenerate-thumbnails/regenerate-thumbnails.php')) {
 				unset( $plugins['regenerate-thumbnails/regenerate-thumbnails.php'] );
