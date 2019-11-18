@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
 ##### Last Update: 18/11/2019
-###### ** Current version: 6.4
+###### ** Current version: 6.5
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -62,5 +62,6 @@
 [WP] Add: New Functions<br />
 [WP] Edit: Constrollers (Enqueue, Theme)<br />
 [HTML+WP] Edit: Structure<br />
+[WP] Add: WooCommerce (TGM Plugins)<br />
 
 ###### Copyright (c) VeryCreative
