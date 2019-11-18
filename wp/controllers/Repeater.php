@@ -4,7 +4,7 @@
  * SYNTAX:
  * $repeater = new Repeater('list');
  * $repeater = new Repeater('list', $postID / 1 (1 = option page));
- * $repeater->startLoop(); & $repetaer->endLoop();
+ * $repeater->startLoop(); & $repeater->endLoop();
  * $repeater->finish();
  * {{element}} / {{element_optiune}}
  *
