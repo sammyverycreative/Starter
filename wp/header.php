@@ -1,7 +1,6 @@
 <?php
 
 include 'templates/parts/components/head.php';
-include 'controllers/Header.php';
 
 /**
  * + setHeaderColor($color);
