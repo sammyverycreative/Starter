@@ -130,7 +130,7 @@ function phoneNumber($args)
 // Get Image
 function getImage($img)
 {
-    return get_template_directory_uri() . "/images/" . $img;
+    return public_dir() . "/images/" . $img;
 }
 
 // Featured Image
