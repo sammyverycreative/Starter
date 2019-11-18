@@ -101,26 +101,6 @@ add_action( 'init', 'portfolio_customtaxonomy', 0 );*/
 */
 /*add_theme_support( 'post-formats', array( 'aside', 'status', 'quote', 'chat', 'link', 'image', 'gallery', 'audio', 'video' ) );*/
 
-// Add Shortcode
-/*function custom_shortcode( $atts ) {
-
-	// Attributes
-	$atts = shortcode_atts(
-		array(
-			'attribute-name1' => 'attribute-value1',
-			'attribute-name2' => 'attribute-value2',
-		),
-		$atts,
-		'the-shortcode'
-	);
-
-	// shortcode code
-	echo 'Shortcode is working';
-	// end
-
-}
-add_shortcode( 'the-shortcode', 'custom_shortcode' );*/
-
 /*function use_post_format_templates_27425( $template ) {
     if ( is_single() && has_post_format() ) {
         $post_format_template = locate_template( 'templates/single-' . get_post_format() . '.php' );
