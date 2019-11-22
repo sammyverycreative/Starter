@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 18/11/2019
-###### ** Current version: 6.5
+##### Last Update: 22/11/2019
+###### ** Current version: 6.6
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -26,6 +26,7 @@
 [HTML+WP] Typography (SCSS)<br />
 [WP] Framework error<br />
 [WP] Header<br />
+[WP] util.php<br />
 
 ### @Changes:
 [HTML+WP] Edit: Folders structure<br />
@@ -63,5 +64,7 @@
 [WP] Edit: Constrollers (Enqueue, Theme)<br />
 [HTML+WP] Edit: Structure<br />
 [WP] Add: WooCommerce (TGM Plugins)<br />
+[WP] Add: Image (Controller)<br />
+[WP] Add: Function _fp (ACF Print)<br />
 
 ###### Copyright (c) VeryCreative
