@@ -80,6 +80,10 @@ function _f($acfFieldName, $acfOptions = false)
     return get_field($acfFieldName);
 }
 
+function _fp($acfFieldName, $acfOptions = false){
+    echo _f($acfFieldName,$acfOptions);
+}
+
 // Breadcrumbs
 function yoastBreadcrumb()
 {
@@ -173,21 +177,25 @@ function featureImage($id = "", $size = "full", $type = "", $class = "", $no_img
 // Create Link
 function createLink($object, $class = null)
 {
-    $link = '<a href="';
-    $link .= esc_url($object['url']);
-    $link .= '" target="';
-    $link .= $object['target'] ? $object['target'] : '_self';
-    $link .= '" class="';
-    if ($class) {
-        if (!is_array($class)) {
-            $link .= $class;
-        } else {
-            foreach ($class as $cls) {
-                $link .= $cls . ' ';
+    if(!empty($object)) {
+        $link = '<a href="';
+        $link .= esc_url($object['url']);
+        $link .= '" target="';
+        $link .= $object['target'] ? $object['target'] : '_self';
+        $link .= '" class="';
+        if ($class) {
+            if (!is_array($class)) {
+                $link .= $class;
+            } else {
+                foreach ($class as $cls) {
+                    $link .= $cls . ' ';
+                }
             }
         }
     }
-
+    else{
+        $link = '';
+    }
     $link .= '">';
     $link .= $object['title'];
     $link .= '</a>';
