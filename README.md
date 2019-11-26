@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 22/11/2019
-###### ** Current version: 6.6
+##### Last Update: 26/11/2019
+###### ** Current version: 6.7
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -27,6 +27,7 @@
 [WP] Framework error<br />
 [WP] Header<br />
 [WP] util.php<br />
+[WP] Enqueue (Controllers)<br />
 
 ### @Changes:
 [HTML+WP] Edit: Folders structure<br />
