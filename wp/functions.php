@@ -28,17 +28,17 @@ $theme->setAutoHomepage(false);
 //$theme->setSidebar('Sidebar');
 
 /**
- * ENQUEUE
- */
-$plugins = new Enqueue();
-$plugins->addJS('modernizr_2.8.3');
-$plugins->init();
-
-/**
 * Images Sizes
 */
-add_image_size('landscape', 1920, 1080, true);
-add_image_size('portrait', 1080, 1920, true);
+$theme->imageSize('landscape', 1920, 1080, true);
+$theme->imageSize('portrait', 1080, 1920, true);
+
+/**
+ * ENQUEUE
+ */
+ $plugins = new Enqueue();
+ $plugins->addJS('modernizr_2.8.3');
+ $plugins->init();
 
 /**
 * ACF Pages
