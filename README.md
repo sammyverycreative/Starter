@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 13/12/2019
-###### ** Current version: 6.9
+##### Last Update: 24/12/2019
+###### ** Current version: 7.0
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -31,6 +31,7 @@
 [HTML+WP] FontAwesome fonts<br />
 [HTML+WP] Slick fonts<br />
 [WP] script.js location<br />
+[HTML+WP] FancyBox (JS)<br />
 
 ### @Changes:
 [HTML+WP] Edit: Folders structure<br />
