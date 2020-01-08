@@ -1,1 +1,0 @@
-<?php defined( 'ABSPATH' ) or die( 'Direct access is forbidden!' );
