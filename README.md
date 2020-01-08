@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 24/12/2019
-###### ** Current version: 7.0
+##### Last Update: 07/01/2020
+###### ** Current version: 7.1
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -71,6 +71,7 @@
 [WP] Add: WooCommerce (TGM Plugins)<br />
 [WP] Add: Image (Controller)<br />
 [WP] Add: Function _fp (ACF Print)<br />
-[WP] Repeater (Controllers)<br />
+[WP] Edit: Repeater (Controllers)<br />
+[WP] Removed: WPMU Plugins<br />
 
 ###### Copyright (c) VeryCreative

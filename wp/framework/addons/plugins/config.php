@@ -162,20 +162,6 @@ function theme_slug_register_required_plugins() {
 			'force_activation'=>true
 		),
 		array(
-			'name'=>'WP Smush PRO',
-			'slug'=>'wp-smush-pro',
-			'source'=>get_template_directory().'/framework/addons/plugins/archives/wp-smush-pro.zip',
-			'required'=>true,
-			'force_activation'=>true
-		),
-		array(
-			'name'=>'WPMU Dev Dashboard',
-			'slug'=>'wpmu-dev-dashboard',
-			'source'=>get_template_directory().'/framework/addons/plugins/archives/wpmu-dev-dashboard.zip',
-			'required'=>true,
-			'force_activation'=>true
-		),
-		array(
 			'name'=>'Yoast SEO',
 			'slug'=>'wordpress-seo',
 			'required'=>false,
