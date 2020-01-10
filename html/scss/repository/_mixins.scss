@@ -59,6 +59,18 @@
   }
 }
 
+@mixin media($media-value) {
+  @media (min-width: #{$media-value}px) {
+    @content;
+  }
+}
+
+@mixin media-max($media-value) {
+  @media (max-width: #{$media-value}px) {
+    @content;
+  }
+}
+
 // OTHERS
 @mixin bxz($value) {
   box-sizing: $value;
