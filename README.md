@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 07/01/2020
-###### ** Current version: 7.1
+##### Last Update: 10/01/2020
+###### ** Current version: 7.2
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -73,5 +73,6 @@
 [WP] Add: Function _fp (ACF Print)<br />
 [WP] Edit: Repeater (Controllers)<br />
 [WP] Removed: WPMU Plugins<br />
+[HTML+WP] Add: Media Query mixins<br />
 
 ###### Copyright (c) VeryCreative
