@@ -5647,14 +5647,31 @@ li {
 
 .the-content ol {
   list-style-type: none;
+  /* counter-reset: item; */
   padding-right: 0;
   margin-left: 0; }
   .the-content ol li {
+    /* list-style-type: decimal !important; */
     counter-increment: step-counter; }
     .the-content ol li:before {
       color: #878787;
       content: counter(step-counter) ".";
+      /* content: counters(item, ".") ". "; */
+      /* counter-increment: item; */
       margin-right: 5px; }
+
+.the-content ol ul li:before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  content: "\f111" !important;
+  color: #878787;
+  font-size: 7px !important;
+  width: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 
 .white-txt h1 {
   color: white; }

@@ -317,7 +317,7 @@ blockquote {
         border-radius: 3px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
-        background: #d7d7d7;
+        background: $main-text-color;
     }
     p {
         color: $main-text-color;
@@ -373,6 +373,7 @@ li {
 
 .the-content ol {
     list-style-type: none;
+    //counter-reset: item;
     padding-right: 0;
     margin-left: 0;
     li {
@@ -381,7 +382,25 @@ li {
         &:before {
             color: $main-text-color;
             content: counter(step-counter)".";
+            //content: counters(item, ".") ". ";
+            //counter-increment: item;
             margin-right: 5px;
+        }
+    }
+    ul {
+        li {
+            // list-style-type: disc !important;
+            &:before {
+                display: inline-block;
+                font-family: "Font Awesome 5 Free" !important;
+                font-weight: 900;
+                content: "\f111" !important;
+                color: $main-text-color;
+                font-size: 7px !important;
+                width: 1em;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
         }
     }
 }
