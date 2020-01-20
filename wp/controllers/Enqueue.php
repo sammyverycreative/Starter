@@ -97,7 +97,7 @@
             wp_enqueue_script(slugify($jsFile[0]) . '-script', array('jquery'));
          }
          # Main JavaScript File
-         wp_register_script('scripts', public_dir() . '/js/script.js', '', true, $this->cache);
+         wp_register_script('scripts', public_dir() . '/js/script.js', '', $this->cache, true);
          wp_enqueue_script('scripts', array('jquery'));
          # Loads our main stylesheet.
          wp_enqueue_style('site-style', get_stylesheet_uri(), false, $this->cache);
