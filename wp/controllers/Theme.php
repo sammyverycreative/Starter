@@ -8,7 +8,7 @@
  * $theme->imageSize('new-size', 222, 192, true);
  * $theme->addControlPage('Options','General Options');
  * $theme->init();
- *
+ * 
  * setTodo(true/false);
  * setAjax(true/false);
  * setAutoHomepage(true/false);
