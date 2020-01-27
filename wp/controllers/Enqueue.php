@@ -3,18 +3,18 @@
 /**
  * // Font file
  * $theme->addFont('font.css');
- * $theme->addFont('url', true); ***(cdn)
+ * $theme->addFont('url', true); ***(cdn);
  * // CSS file
  * $theme->addCSS('slick');
- * $theme->addCSS('url', true); ***(cdn)
+ * $theme->addCSS('url', true); ***(cdn);
  * // JS file
  * $theme->addJS('slick');
- * $theme->addJS('slick', true); ***(header enqueue)
- * $theme->addJS('url', false, true); ***(footer enqueue, cdn)
+ * $theme->addJS('slick', true); ***(header enqueue);
+ * $theme->addJS('url', false, true); ***(footer enqueue, cdn);
  * // CSS & JS files
  * $theme->addPlugin('slick');
  * // Version
- * $theme->setVersion('random') | $theme->setVersion('1.1') 
+ * $theme->setVersion('random'); | $theme->setVersion('1.1') 
  */
 
  class Enqueue

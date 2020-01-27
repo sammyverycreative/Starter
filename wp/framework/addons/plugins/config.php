@@ -170,24 +170,48 @@ function theme_slug_register_required_plugins() {
 		array(
 			'name'=>'Admin Columns',
 			'slug'=>'codepress-admin-columns',
-			'required'=>true,
+			'required'=>false,
 			'force_activation'=>false
 		),
 		array(
 			'name'=>'Admin Menu Editor',
 			'slug'=>'admin-menu-editor',
 			'required'=>true,
-			'force_activation'=>false
+			'force_activation'=>true
 		),
 		array(
-			'name'=>'WP Upload Size',
-			'slug'=>'wp-upload-size',
+			'name'=>'Base64 Images',
+			'slug'=>'base64-images',
+			'required'=>false,
+			'force_activation'=>true
+		),
+		array(
+			'name'=>'Smush – Compress, Optimize and Lazy Load Images',
+			'slug'=>'wp-smushit',
+			'required'=>false,
+			'force_activation'=>true
+		),
+		// array(
+		// 	'name'=>'WP Upload Size',
+		// 	'slug'=>'wp-upload-size',
+		// 	'required'=>false,
+		// 	'force_activation'=>false
+		// ),
+		array(
+			'name'=>'Autoptimize',
+			'slug'=>'autoptimize',
 			'required'=>false,
 			'force_activation'=>false
 		),
 		array(
-			'name'=>'Autoptimize',
-			'slug'=>'autoptimize',
+			'name'=>'WP Fastest Cache',
+			'slug'=>'wp-fastest-cache',
+			'required'=>false,
+			'force_activation'=>false
+		),
+		array(
+			'name'=>'iThemes Security (formerly Better WP Security)',
+			'slug'=>'better-wp-security',
 			'required'=>false,
 			'force_activation'=>false
 		),

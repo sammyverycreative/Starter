@@ -3,11 +3,12 @@
 /**
  * SYNTAX:
  * $theme = new Theme();
- * $theme->setTodo(true)
- * $theme->setAutoHomepage(true)
+ * $theme->setTodo(true);
+ * $theme->setAutoHomepage(true);
  * $theme->imageSize('new-size', 222, 192, true);
  * $theme->addControlPage('Options','General Options');
- * $theme->init()
+ * $theme->init();
+ *
  * setTodo(true/false);
  * setAjax(true/false);
  * setAutoHomepage(true/false);

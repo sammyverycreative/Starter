@@ -1,8 +1,8 @@
 <?php
 /**
- * $image = Image::createACF(field, true/false)
- * $image = Image::createACF(field, 1)
- * $image = Image::createFeaturedImage(id, true/false)
+ * $image = Image::createACF(field, true/false);
+ * $image = Image::createACF(field, 1);
+ * $image = Image::createFeaturedImage(id, true/false);
  * E.g.:
  * $image->printBackground();
  * $image->printImage();

@@ -123,10 +123,6 @@ function hide_plugins($plugins)
 		if(is_plugin_active('admin-menu-editor/menu-editor.php')) {
 				unset( $plugins['admin-menu-editor/menu-editor.php'] );
 		}
-		// WP Upload Size
-		if(is_plugin_active('wp-upload-size/wp-upload-size.php')) {
-				unset( $plugins['wp-upload-size/wp-upload-size.php'] );
-		}
 		// Easy Updates Manager
 		if(is_plugin_active('stops-core-theme-and-plugin-updates/main.php')) {
 				unset( $plugins['stops-core-theme-and-plugin-updates/main.php'] );
