@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 20/01/2020
-###### ** Current version: 7.4
+##### Last Update: 27/01/2020
+###### ** Current version: 7.5
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -76,6 +76,7 @@
 [WP] Removed: WPMU Plugins<br />
 [HTML+WP] Add: Media Query mixins<br />
 [HTML+WP] Edit: UL & OL (CSS & SCSS)<br />
-[WP]: Edit: Repeater (Controllers)<br />
+[WP] Edit: Repeater (Controllers)<br />
+[WP] Edit: TGM Plugins<br />
 
 ###### Copyright (c) VeryCreative
