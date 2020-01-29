@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 27/01/2020
-###### ** Current version: 7.5
+##### Last Update: 29/01/2020
+###### ** Current version: 7.6
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -63,7 +63,7 @@
 [HTML+WP] Removed: Old Library (e.g.: BXSlider, OwlCarousel, etc.)<br />
 [HTML+WP] Add: Flexible Grid (Bootstrap)<br />
 [HTML+WP] Edit: SCSS<br />
-[WP]: Add: Default Plugins (Contact Form 7 Database Addon – CFDB7, Admin Columns, WP Upload Size)<br />
+[WP] Add: Default Plugins (Contact Form 7 Database Addon – CFDB7, Admin Columns, WP Upload Size)<br />
 [HTML+WP] Add: Selectric themes<br />
 [WP] Add: New Framework<br />
 [WP] Add: New Functions<br />
@@ -78,5 +78,6 @@
 [HTML+WP] Edit: UL & OL (CSS & SCSS)<br />
 [WP] Edit: Repeater (Controllers)<br />
 [WP] Edit: TGM Plugins<br />
+[HTML+WP] Edit: Mobile Menu (SCSS)<br />
 
 ###### Copyright (c) VeryCreative
