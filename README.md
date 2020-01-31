@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 29/01/2020
-###### ** Current version: 7.6
+##### Last Update: 31/01/2020
+###### ** Current version: 7.7
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -79,5 +79,6 @@
 [WP] Edit: Repeater (Controllers)<br />
 [WP] Edit: TGM Plugins<br />
 [HTML+WP] Edit: Mobile Menu (SCSS)<br />
+[HTML+WP] Edit: SCSS (location: /assets)<br />
 
 ###### Copyright (c) VeryCreative
