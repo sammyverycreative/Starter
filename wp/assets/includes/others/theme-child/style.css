@@ -3,6 +3,7 @@ Theme Name: Theme_Name Child
 Theme URI: Theme_URL
 Author: VeryCreative
 Author URI: http://www.verycreative.ro
+Template: PARENT_FOLDER_NAME
 Description: Description_Text Child Theme
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -11,6 +12,6 @@ Tags: Tag1,Tag2
 Text Domain: theme-child
 */
 
-@import url("../theme-parent/style.css");
+@import url("../theme-parent/assets/css/custom-style.css");
 
 /* CHILD THEME STYLE */
