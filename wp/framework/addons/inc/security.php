@@ -83,10 +83,6 @@ function hide_plugins($plugins)
 		if(is_plugin_active('breadcrumb-navxt/breadcrumb-navxt.php')) {
 				unset( $plugins['breadcrumb-navxt/breadcrumb-navxt.php'] );
 		}
-		// TinyMCE Advanced
-		if(is_plugin_active('tinymce-advanced/tinymce-advanced.php')) {
-				unset( $plugins['tinymce-advanced/tinymce-advanced.php'] );
-		}
 		// Contact Form 7
 		if(is_plugin_active('contact-form-7/wp-contact-form-7.php')) {
 				unset( $plugins['contact-form-7/wp-contact-form-7.php'] );
@@ -106,10 +102,6 @@ function hide_plugins($plugins)
 		// SVG Support
 		if(is_plugin_active('add-full-svg-support/add-full-svg-support.php')) {
 				unset( $plugins['add-full-svg-support/add-full-svg-support.php'] );
-		}
-		// WooCommerce
-		if(is_plugin_active('woocommerce/woocommerce.php')) {
-				unset( $plugins['woocommerce/woocommerce.php'] );
 		}
 		// Regenerate Thumbnails
 		if(is_plugin_active('regenerate-thumbnails/regenerate-thumbnails.php')) {

@@ -83,18 +83,18 @@ function theme_slug_register_required_plugins() {
 			'required'=>true,
 			'force_activation'=>true
 		),
-		/*array(
-			'name'=>'ACF Theme Code for Advanced Custom Fields',
-			'slug'=>'acf-theme-code',
-			'required'=>false,
-			'force_activation'=>false
-		),*/
-		/*array(
-			'name'=>'Advanced Custom Fields: Link',
-			'slug'=>'acf-link',
-			'required'=>true,
-			'force_activation'=>true
-		),*/
+		// array(
+		// 	'name'=>'ACF Theme Code for Advanced Custom Fields',
+		// 	'slug'=>'acf-theme-code',
+		// 	'required'=>false,
+		// 	'force_activation'=>false
+		// ),
+		// array(
+		// 	'name'=>'Advanced Custom Fields: Link',
+		// 	'slug'=>'acf-link',
+		// 	'required'=>true,
+		// 	'force_activation'=>true
+		// ),
 		array(
 			'name'=>'ACF Tooltip',
 			'slug'=>'acf-tooltip',
@@ -137,24 +137,24 @@ function theme_slug_register_required_plugins() {
 			'required'=>true,
 			'force_activation'=>true
 		),
-		array(
-			'name'=>'Contact Form 7 MailChimp Extension',
-			'slug'=>'contact-form-7-mailchimp-extension',
-			'required'=>false,
-			'force_activation'=>false
-		),
+		// array(
+		// 	'name'=>'Contact Form 7 MailChimp Extension',
+		// 	'slug'=>'contact-form-7-mailchimp-extension',
+		// 	'required'=>false,
+		// 	'force_activation'=>false
+		// ),
 		array(
 			'name'=>'SVG Support',
 			'slug'=>'svg-support',
 			'required'=>true,
 			'force_activation'=>false
 		),
-		/*array(
-			'name'=>'WooCommerce',
-			'slug'=>'woocommerce',
-			'required'=>true,
-			'force_activation'=>true
-		),*/
+		// array(
+		// 	'name'=>'WooCommerce',
+		// 	'slug'=>'woocommerce',
+		// 	'required'=>true,
+		// 	'force_activation'=>true
+		// ),
 		array(
 			'name'=>'Regenerate Thumbnails',
 			'slug'=>'regenerate-thumbnails',
@@ -215,12 +215,12 @@ function theme_slug_register_required_plugins() {
 			'required'=>false,
 			'force_activation'=>false
 		),
-		// array(
-		// 	'name'=>'Easy Updates Manager',
-		// 	'slug'=>'stops-core-theme-and-plugin-updates',
-		// 	'required'=>true,
-		// 	'force_activation'=>true
-		// ),
+		/*array(
+			'name'=>'Easy Updates Manager',
+			'slug'=>'stops-core-theme-and-plugin-updates',
+			'required'=>true,
+			'force_activation'=>true
+		),*/
 		array(
 			'name'=>'BackUpWordPress',
 			'slug'=>'backupwordpress',

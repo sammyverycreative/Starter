@@ -5,6 +5,9 @@
  */
 session_start();
 
+/**
+ * TEXTDOMAIN
+ */
 define('THEME_TEXT_DOMAIN', 'theme_slug');
 
 /**
@@ -36,9 +39,20 @@ $theme->imageSize('portrait', 1080, 1920, true);
 /**
  * ENQUEUE
  */
- $plugins = new Enqueue();
- $plugins->addJS('modernizr_2.8.3');
- $plugins->init();
+$plugins = new Enqueue();
+$plugins->addCSS('iealert/style');
+$plugins->addJS('iealert.min');
+//$plugins->addFont('fonts.css');
+//$plugins->addCSS('fontawesome-all.min');
+//$plugins->addCSS('slick');
+//$plugins->addCSS('slick-theme');
+//$plugins->addJS('slick');
+//$plugins->addCSS('jquery.fancybox.min');
+//$plugins->addCSS('jquery.fancybox-thumbs');
+//$plugins->addJS('jquery.fancybox.min');
+$plugins->addJS('modernizr_2.8.3', false);
+$plugins->setVersion('random');
+$plugins->init();
 
 /**
 * ACF Pages
