@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 03/02/2020
-###### ** Current version: 7.8
+##### Last Update: 04/02/2020
+###### ** Current version: 7.9
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -34,6 +34,7 @@
 [HTML+WP] FancyBox (JS)<br />
 [WP] Enqueue (Controllers)<br />
 [WP] Theme Child<br />
+[HTML+WP] Typography (SCSS)<br />
 
 ### @Changes:
 [HTML+WP] Edit: Folders structure<br />
@@ -81,5 +82,6 @@
 [WP] Edit: TGM Plugins<br />
 [HTML+WP] Edit: Mobile Menu (SCSS)<br />
 [HTML+WP] Edit: SCSS (location: /assets)<br />
+[WP] Edit: Functions (Default Enqueue), TGM Plugins, Security<br />
 
 ###### Copyright (c) VeryCreative
