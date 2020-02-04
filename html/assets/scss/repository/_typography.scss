@@ -117,62 +117,62 @@ h6 {
         font-weight: 900;
     }
 }
-/*@include tablet {
-    h1 {
-        font-size: $h1t;
-        line-height: calc( #{$h1t} + #{$lhos} );
-    }
-    h2 {
-        font-size: $h2t;
-        line-height: calc( #{$h2t} + #{$lhos} );
-    }
-    h3 {
-        font-size: $h3t;
-        line-height: calc( #{$h3t} + #{$lhos} );
-    }
-    h4 {
-        font-size: $h4t;
-        line-height: calc( #{$h4t} + #{$lhos} );
-    }
-    h5 {
-        font-size: $h5t;
-        line-height: calc( #{$h5t} + #{$lhos} );
-    }
-    h6 {
-        font-size: $h6t;
-        line-height: calc( #{$h6t} + #{$lhos} );
-    }
-    p {
-        font-size: $mobile-font-size;
-        line-height: $mobile-line-height;
-    }
-}*//*
-@include mobile {
-    h1 {
-        font-size: $h1m;
-        line-height: calc( #{$h1m} + #{$lhos} );
-    }
-    h2 {
-        font-size: $h2m;
-        line-height: calc( #{$h2m} + #{$lhos} );
-    }
-    h3 {
-        font-size: $h3m;
-        line-height: calc( #{$h3m} + #{$lhos} );
-    }
-    h4 {
-        font-size: $h4m;
-        line-height: calc( #{$h4m} + #{$lhos} );
-    }
-    h5 {
-        font-size: $h5m;
-        line-height: calc( #{$h5m} + #{$lhos} );
-    }
-    h6 {
-        letter-spacing: $h6m;
-        line-height: calc( #{$h6m} + #{$lhos} );
-    }
-}*/
+// @include tablet {
+//     h1 {
+//         font-size: $h1t;
+//         line-height: calc( #{$h1t} + #{$lhos} );
+//     }
+//     h2 {
+//         font-size: $h2t;
+//         line-height: calc( #{$h2t} + #{$lhos} );
+//     }
+//     h3 {
+//         font-size: $h3t;
+//         line-height: calc( #{$h3t} + #{$lhos} );
+//     }
+//     h4 {
+//         font-size: $h4t;
+//         line-height: calc( #{$h4t} + #{$lhos} );
+//     }
+//     h5 {
+//         font-size: $h5t;
+//         line-height: calc( #{$h5t} + #{$lhos} );
+//     }
+//     h6 {
+//         font-size: $h6t;
+//         line-height: calc( #{$h6t} + #{$lhos} );
+//     }
+//     p {
+//         font-size: $mobile-font-size;
+//         line-height: $mobile-line-height;
+//     }
+// }
+// @include mobile {
+//     h1 {
+//         font-size: $h1m;
+//         line-height: calc( #{$h1m} + #{$lhos} );
+//     }
+//     h2 {
+//         font-size: $h2m;
+//         line-height: calc( #{$h2m} + #{$lhos} );
+//     }
+//     h3 {
+//         font-size: $h3m;
+//         line-height: calc( #{$h3m} + #{$lhos} );
+//     }
+//     h4 {
+//         font-size: $h4m;
+//         line-height: calc( #{$h4m} + #{$lhos} );
+//     }
+//     h5 {
+//         font-size: $h5m;
+//         line-height: calc( #{$h5m} + #{$lhos} );
+//     }
+//     h6 {
+//         letter-spacing: $h6m;
+//         line-height: calc( #{$h6m} + #{$lhos} );
+//     }
+// }
 p {
     font-family: $main-font, #{$sans};
     color: $main-text-color;
