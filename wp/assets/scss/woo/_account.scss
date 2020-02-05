@@ -1,0 +1,135 @@
+mark {
+  color: $main-color;
+  font-weight: 800;
+  text-decoration: underline;
+  background: transparent;
+}
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    //width: 48%;
+    max-width: 48%;
+    @include mobile {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+}
+.woocommerce {
+  nav {
+    &.woocommerce-MyAccount-navigation {
+      display: inline-block;
+      float: left;
+      width: 30%;
+      @include tablet {
+        width: 40%;
+      }
+      @include big-mobile {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      ul {
+        border: 1px solid $border-color;
+        li {
+          border-width: 0 0 1px;
+          border-style: solid;
+          border-color: $border-color;
+          margin: 0;
+          &:last-child {
+            border-width: 0;
+          }
+          a {
+            display: block;
+            padding: 10px 15px;
+            &:hover {
+              color: $white;
+              background-color: $main-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .woocommerce-MyAccount-content {
+    display: inline-block;
+    float: left;
+    width: 70%;
+    padding-left: 25px;
+    @include tablet {
+      width: 60%;
+      padding-left: 20px;
+    }
+    @include mobile {
+      padding-left: 15px;
+    }
+    @include big-mobile {
+      width: 100%;
+      border-width: 5px 1px 1px;
+      border-style: solid;
+      border-color: $border-color;
+      padding: 10px 15px;
+    }
+    .woocommerce-Address {
+      h3 {
+        font-size: $h4;
+        margin-bottom: 15px;
+      }
+      a {
+        color: $white;
+        font-family: $main-font, #{$sans};
+        font-size: $main-font-size;
+        font-weight: 500;
+        background-color: $main-color;
+        padding: 10px 20px;
+        transition: all 0.3s;
+        &:hover {
+            color: $white;
+            background-color: $secondary-color;
+        }
+        margin-bottom: 15px;
+      }
+      address {
+        color: $main-text-color;
+        font-family: $main-font;
+        font-size: $main-font-size;
+      }
+    }
+    .woocommerce-EditAccountForm,
+    .edit-account {
+      fieldset {
+        margin: 25px 0 0;
+      }
+      legend {
+        font-family: $headings-font;
+        font-size: $h4;
+        font-weight: $headings-font-weight;
+        margin-bottom: 15px;
+      }
+    }
+    fieldset {
+      margin: 25px 0;
+    }
+    legend {
+      color: $main-text-color;
+      font-family: $main-font;
+      font-size: $main-font-size;
+    }
+  }
+  table {
+    &.shop_table {
+      tbody {
+        tr {
+          td {
+            &.woocommerce-orders-table__cell-order-actions {
+              a {
+                display: block;
+                width: 100%;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.woocommerce form .form-row-first,
+.woocommerce form .form-row-last,
+.woocommerce-page form .form-row-first,
+.woocommerce-page form .form-row-last {
+  width: 49%;
+}
+
+.woocommerce {
+  .woocommerce-info {
+    color: $main-text-color;
+    font-family: $main-font;
+    font-size: $main-font-size;
+    border-top-color: $blue;
+    background-color: #fafafa;
+    &::before {
+      color: $blue;
+      margin-top: 2px;
+    }
+    a {
+      color: $links-color;
+      font-family: $main-font;
+      font-size: $main-font-size;
+      text-decoration: underline;
+      &.button {
+        text-decoration: none;
+      }
+      &:hover {
+        color: $links-color-hover;
+      }
+    }
+  }
+  .woocommerce-NoticeGroup,
+  .woocommerce-notices-wrapper {
+    .woocommerce-error {
+      color: $main-text-color;
+      font-family: $main-font;
+      font-size: $main-font-size;
+      border-top-color: $red;
+      background-color: #fafafa;
+      &::before {
+        left: 1em !important;
+        color: $red;
+        font-size: 1.3rem !important;
+        margin-top: 2px;
+      }
+      li {
+        color: $main-text-color;
+        font-family: $main-font;
+        font-size: $main-font-size;
+      }
+    }
+  }
+  form.checkout_coupon,
+  form.login,
+  form.register {
+    border: 1px solid $border-color;
+    border-radius: 0;
+  }
+  form.checkout_coupon {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+      &:first-child {
+        width: 100%;
+      }
+      &:nth-child(2) {
+        width: calc(100% - 150px);
+      }
+      &:last-child,
+      &.form-row-last {
+        width: 150px !important;
+      }
+      input {
+        height: 36px;
+      }
+    }
+  }
+  .woocommerce-checkout {
+    h3 {
+      font-size: $h4;
+      margin-bottom: 15px;
+      &#order_review_heading {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: #fafafa;
+  border-radius: 0;
+  ul {
+    li {
+      label {
+        display: inline-block;
+      }
+    }
+  }
+}
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+  font-family: $main-font;
+  font-size: $main-font-size;
+  background-color: $main-color;
+  &::before {
+    border: 1em solid $main-color;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  p {
+    color: $white;
+  }
+}
