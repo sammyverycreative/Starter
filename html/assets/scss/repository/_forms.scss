@@ -182,13 +182,11 @@ input[disabled] {
 button[disabled] {
     cursor: default;
 }
-input[type="text"] {
-    @extend %extend_9;
-}
-input[type="email"] {
-    @extend %extend_9;
-}
-input[type="tel"] {
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
     @extend %extend_9;
 }
 label {
