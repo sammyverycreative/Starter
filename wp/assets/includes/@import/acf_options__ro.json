@@ -252,7 +252,7 @@
                 "min": 0,
                 "max": 0,
                 "layout": "row",
-                "button_label": "Add Social",
+                "button_label": "Adauga social",
                 "sub_fields": [
                     {
                         "key": "field_59f9ebe53851d",
