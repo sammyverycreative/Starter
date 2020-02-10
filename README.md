@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 05/02/2020
-###### ** Current version: 8.0
+##### Last Update: 10/02/2020
+###### ** Current version: 8.1
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -36,6 +36,7 @@
 [WP] Theme Child<br />
 [HTML+WP] Typography (SCSS)<br />
 [HTML+WP] Forms (SCSS)<br />
+[WP] ACF fields (import)<br />
 
 ### @Changes:
 [HTML+WP] Edit: Folders structure<br />
