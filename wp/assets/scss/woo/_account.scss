@@ -16,6 +16,36 @@ mark {
     }
 }
 .woocommerce {
+  // register & login
+  .u-columns {
+    .woocommerce-form-login,
+    .woocommerce-form-register {
+      max-width: 100%;
+    }
+  }
+  .woocommerce-form-login,
+  .woocommerce-form-register {
+    max-width: 330px;
+    margin: 0 auto;
+    .woocommerce-form__label-for-checkbox {
+      display: block;
+      width: 100%;
+      font-size: 14px !important;
+      line-height: 1 !important;
+      margin: 0 0 10px;
+      // input {
+      //   margin-top: 2px;
+      // }
+    }
+    .woocommerce-privacy-policy-text {
+      p {
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 0 0 15px;
+      }
+    }
+  }
+  // end
   nav {
     &.woocommerce-MyAccount-navigation {
       display: inline-block;
