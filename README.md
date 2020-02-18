@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 12/02/2020
-###### ** Current version: 8.2
+##### Last Update: 18/02/2020
+###### ** Current version: 8.3
 
 ### @Fix:
 [WP] Title tag in header.php<br />
