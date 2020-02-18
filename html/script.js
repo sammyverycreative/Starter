@@ -10,7 +10,6 @@ jQuery(document).ready(function($) {
 	});
 
 	$(document).on('click','.menu-open .menu-item-has-children > a',function(e){
-	    console.log(e);
 	    e.preventDefault();
 	    $(this).parent().find('.sub-menu').toggleClass('active');
 	    return false;
