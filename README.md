@@ -1,6 +1,6 @@
 # Default HTML & WP Starter
-##### Last Update: 18/02/2020
-###### ** Current version: 8.3
+##### Last Update: 10/04/2020
+###### ** Current version: 8.4
 
 ### @Fix:
 [WP] Title tag in header.php<br />
@@ -87,5 +87,6 @@
 [HTML+WP] Edit: SCSS (location: /assets)<br />
 [WP] Edit: Functions (Default Enqueue), TGM Plugins, Security<br />
 [WP] Add: WooCommerce Style (SCSS)<br />
+[HTML+WP] Add: Selectric Style (SCSS), Flex classes & mixins, Other mixins<br />
 
 ###### Copyright (c) VeryCreative
