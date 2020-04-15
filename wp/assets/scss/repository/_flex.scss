@@ -1,0 +1,89 @@
+.df {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.f-start-start {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.f-start-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.f-start-end {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.f-center-start {
+  align-items: center;
+  justify-content: flex-start;
+}
+.f-center-center {
+  align-items: center;
+  justify-content: center;
+}
+.f-center-end {
+  align-items: center;
+  justify-content: flex-end;
+}
+.f-end-start {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.f-end-center {
+  align-items: flex-end;
+  justify-content: center;
+}
+.f-end-end {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+@mixin f($vertical, $horizontal) {
+  align-items: $vertical;
+  justify-content: $horizontal;
+}
+// TRUE or FALSE
+@mixin grid($flex) {
+  @if $flex {
+      display: flex;
+  } @else {
+      display: block;
+  }
+}
+// END
+@mixin df($value) {
+  flex: #{$value};
+}
+@mixin fw($value) {
+  flex-wrap: #{$value};
+}
+@mixin fd($value) {
+  flex-direction: #{$value};
+}
+@mixin fjc($value) {
+  justify-content: #{$value};
+}
+@mixin fai($value) {
+  align-items: #{$value};
+}
+@mixin fac($value) {
+  align-content: #{$value};
+}
+@mixin fo($value) {
+  order: #{$value};
+}
+@mixin fg($value) {
+  flex-grow: #{$value};
+}
+@mixin fs($value) {
+  flex-shrink: #{$value};
+}
+@mixin fbasis($value) {
+  flex-basis: #{$value};
+}
+@mixin fself($value) {
+  align-self: #{$value};
+}
