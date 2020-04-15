@@ -62,6 +62,23 @@
 }
 
 // OTHERS
+@mixin background($size, $position, $repeat) {
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
+}
+
+@mixin padding($values...) {    
+  @each $var in $values {
+      padding: #{$var};
+  }
+}
+@mixin margin($values...) {    
+  @each $var in $values {
+      margin: #{$var};
+  }
+}
+
 @mixin bxz($value) {
   box-sizing: $value;
 }
